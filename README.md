@@ -34,9 +34,38 @@ python file_organizer.py
 ```
 
 実行後、自動的に 議事録/年/月/ フォルダへ分類されます。
+スクリプト実行前後のファイル構成を例示すると、以下のようになります。
+```bash
+↓実行前
+project_root/
+├ file_organizer.py
+├ memo/
+│ ├ doc1.txt
+│ └ doc2.txt
+│ └ doc3.txt
+│ └ doc4.txt
+├ 議事録
 
+↓実行後
+project_root/
+├ file_organizer.py
+├ memo
+├ 議事録
+  ├ 2025年
+    ├11月
+    │ ├ 2025年11月12日_doc1.txt
+    │ └ 2025年11月26日_doc2.txt
+    ├12月
+      ├ 2025年12月10日_doc3.txt
+      └ 2025年12月24日_doc4.txt
+```
+    
 ⚠️ 注意点
 Windowsでは、ファイルコピーで作成日が更新される場合があります
+
+## 🧰動作環境
+- Python 3.12  
+- OS ごとの動作確認必要
 
 🧑‍💻 使用技術
 Python（os / shutil / datetime / glob）
@@ -49,3 +78,4 @@ GUI対応
 👤 作者
 津崎潤（Jun Tsuzaki）
 Python自動化エンジニア志望
+
