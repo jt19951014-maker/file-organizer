@@ -25,6 +25,9 @@ project_root/
 ├ 会議A.txt
 ├ 会議B.txt
 └ ... 
-
+次に、ターミナルで以下を実行：
 ```bash
 python file_organizer.py
+
+実行後、自動的に 議事録/YYYY年/MM月/ フォルダが作成され、
+ファイルが整理されます。
