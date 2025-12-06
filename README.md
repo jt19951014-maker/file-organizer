@@ -19,13 +19,14 @@
 本スクリプト（file_organizer.py）と同じ階層に  
 整理対象フォルダ `memo/` を設置してください。
 
+```bash
 フォルダ構成例：
 project_root/
 ├ file_organizer.py
 └ memo/
   ├ 会議A.txt
   ├ 会議B.txt
-
+```
 以下のコマンドを実行：
 
 ```bash
