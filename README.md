@@ -59,23 +59,31 @@ project_root/
       ├ 2025年12月10日_doc3.txt
       └ 2025年12月24日_doc4.txt
 ```
-    
+```bash  
 ⚠️ 注意点
 Windowsでは、ファイルコピーで作成日が更新される場合があります
+```
 
+```bash
 ## 🧰動作環境
 - Python 3.12  
 - OS ごとの動作確認必要
+```
 
+```bash
 🧑‍💻 使用技術
 Python（os / shutil / datetime / glob）
+```
 
-🔧 今後の改善予定（あなたの書いた内容そのまま）
+```bash
+🔧 今後の改善予定
 GUI対応
 ログ出力追加
 重複ファイル検知
+```
 
+```bash
 👤 作者
 津崎潤（Jun Tsuzaki）
 Python自動化エンジニア志望
-
+```
