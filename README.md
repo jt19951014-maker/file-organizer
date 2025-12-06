@@ -30,6 +30,7 @@ project_root/
 
 ```bash
 python file_organizer.py
+
 実行後、自動的に 議事録/年/月/ フォルダへ分類されます。
 
 ⚠️ 注意点
